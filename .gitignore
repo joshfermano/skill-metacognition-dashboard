@@ -5,8 +5,9 @@
 /.next/
 /out/
 
-# generated data (synced from ../outputs by scripts/prepare-data.mjs)
-/public/data/
+# NOTE: public/data/ is intentionally COMMITTED so the deployed site (e.g. Vercel)
+# ships with the data. scripts/prepare-data.mjs refreshes it locally from the
+# pipeline outputs when present, and exits without touching it when absent.
 
 # typescript
 *.tsbuildinfo
