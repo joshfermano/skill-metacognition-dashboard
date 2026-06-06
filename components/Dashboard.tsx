@@ -720,7 +720,19 @@ function Footer() {
         follows STaR. The natural-deduction rule set is standard logic used illustratively.
         SkillsBench is a separate multi-institution benchmark used here only as a style template.
         Simulation numbers are synthetic and labelled as such; real numbers, when present, come
-        from open-weight models via Groq and are cached.
+        from open-weight models via OpenRouter and are cached.
+      </p>
+      <p className="mt-6 text-sm text-paper-dim">
+        Built by{' '}
+        <a
+          href="https://github.com/joshfermano"
+          target="_blank"
+          rel="noreferrer"
+          className="text-accent underline decoration-accent/40 underline-offset-2 hover:decoration-accent"
+        >
+          Josh Khovick Fermano
+        </a>
+        .
       </p>
       <p className="mt-4 font-mono text-[11px] text-hairline">
         skill-metacognition-pipeline · static export · read-only over outputs/
