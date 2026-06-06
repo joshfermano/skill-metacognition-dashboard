@@ -24,9 +24,9 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Skill-Metacognition Pipeline',
+  title: 'Josh Khovick Fermano · Skill-Metacognition Pipeline',
   description:
-    'A research instrument visualizing LLM skill extraction, metacognition-based task generation, evaluation, and self-improvement.',
+    'Josh Khovick Fermano — a research instrument visualizing LLM skill extraction, metacognition-based task generation, evaluation, and self-improvement.',
 };
 
 export default function RootLayout({
