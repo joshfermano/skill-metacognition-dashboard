@@ -1,8 +1,9 @@
 # Skill-Metacognition Dashboard
 
 A static, production-grade Next.js 16 dashboard that visualizes the results of the
-`skill-metacognition-pipeline` (LLM skill extraction, metacognition-scaffolded task
-generation, easy-to-hard evaluation, and STaR-style self-improvement).
+[`skill-metacognition-pipeline`](https://github.com/joshfermano/skill-metacognition-pipeline)
+(LLM skill extraction, metacognition-scaffolded task generation, easy-to-hard evaluation,
+and STaR-style self-improvement).
 
 This is a **separate repository** from the Python pipeline. By default it expects the
 pipeline checked out as a sibling folder (`../skill-metacognition-pipeline/`); it is
